@@ -48,8 +48,8 @@ else
 	sudo chkconfig --add wildfly
 fi
 
-if [ -f /opt/wildfly/standalone/deployments/jbpm-console.war.deployed ]; then
-    echo "jbpm is actived"
+if [ -f /opt/wildfly/standalone/deployments/kie-server.war.deployed ]; then
+    echo "kie-server is actived"
 else
 
 
